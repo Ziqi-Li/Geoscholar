@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geocoder.js: Google Simple Example</title>
+    <script src="geocoder.js"></script>
+    <script>
+      var googleGeocoder = new GeocoderJS.createGeocoder({'provider': 'google'});
+      googleGeocoder.geocode('University of Delaware', function(result) {
+        console.log(result);
+      });
+    
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
+
+
+
+https://maps.googleapis.com/maps/api/geocode/json?address=University+of+Waterloo,+Ontario,+Canada,+CA&key=AIzaSyCtFudWmxr5Xj3-VaP86I6fJHk05dXc_qk
